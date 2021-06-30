@@ -17,3 +17,4 @@ jobs:
         run: terragrunt --version
       - name: Terragrunt Plan
         run: terragrunt run-all plan
+        continue-on-error: true
