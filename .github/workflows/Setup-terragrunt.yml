@@ -15,5 +15,5 @@ jobs:
           terragrunt_version: latest
       - name: Interact with Terragrunt
         run: terragrunt --version
-      - name: Terragrunt validate
+      - name: Terragrunt Plan
         run: terragrunt run-all plan
